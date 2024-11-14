@@ -17,7 +17,6 @@ export const styles = StyleSheet.create({
         justifyContent: "space-between",
         alignItems: "center",
         marginBottom: 32,
-
     },
     logo: {
         height: 32,
