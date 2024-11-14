@@ -3,21 +3,14 @@ import { colors } from "@/app/styles/colors";
 
 export const styles = StyleSheet.create({
   container: {
-    flexDirection: "row",
+    height: 52,
     width: "100%",
-    alignItems: "center",
-    gap: 12,
-  },
-  details: {
-    flex: 1,
-  },
-  name: {
+    backgroundColor: colors.gray[900],
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: colors.gray[800],
+    padding: 10,
     color: colors.gray[100],
     fontSize: 16,
-    fontWeight: "600",
-  },
-  url: {
-    color: colors.gray[400],
-    fontSize: 14,
-  },
+  }
 })

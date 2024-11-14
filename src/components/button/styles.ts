@@ -3,21 +3,16 @@ import { colors } from "@/app/styles/colors";
 
 export const styles = StyleSheet.create({
   container: {
-    flexDirection: "row",
+    height: 52,
     width: "100%",
+    backgroundColor: colors.green[300],
     alignItems: "center",
-    gap: 12,
+    justifyContent: "center",
+    borderRadius: 8,
   },
-  details: {
-    flex: 1,
-  },
-  name: {
-    color: colors.gray[100],
+  title: {
+    color: colors.green[900],
     fontSize: 16,
     fontWeight: "600",
-  },
-  url: {
-    color: colors.gray[400],
-    fontSize: 14,
   },
 })
